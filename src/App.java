@@ -10,25 +10,26 @@ public class App {
 
     // 定数
     // 挑戦可能回数
-    private static int MAX_CHALLENG = 5;
+    private static final int MAX_CHALLENG = 5;
     // 乱数の下限値
-    private static int MIN_VALUE = 0;
+    private static final int MIN_VALUE = 0;
     // 乱数の上限値
-    private static int MAX_VALUE = 99;
+    private static final int MAX_VALUE = 99;
     // 入力許容回数
-    private static int MAX_INPUT_LIMIT = 10;
+    private static final int MAX_INPUT_LIMIT = 10;
 
     // 定数（文字）
     // 改行用
-    private static String MESSAGE_FOR_BLANK = "";
+    private static final String MESSAGE_FOR_BLANK = "";
     // 前置き
-    private static String MESSAGE_FOR_PREFACE = "数を当ててみてね。";
+    private static final String MESSAGE_FOR_PREFACE = "数を当ててみてね。";
     // 挑戦上限
-    private static String MESSAGE_FORMAT_FOR_LIMIT_COUNT = "答えられるのは %d 回までだよ。";
+    private static final String MESSAGE_FORMAT_FOR_LIMIT_COUNT = "答えられるのは %d 回までだよ。";
     
     // メイン関数
     public static void main(String[] args) throws Exception {
 
+        // 初期化
         Init();
 
         // 前置きの表示
